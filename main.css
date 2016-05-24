@@ -1,3 +1,20 @@
-body {
+h1
+
+header {
 	background-color: navy;
+	color: white;
+}
+
+nav {
+	background-color: white;
+}
+
+.content {
+	background-color: gray;
+	color: white;
+}
+
+footer {
+	background-color: green;
+	color: white;
 }
