@@ -1,18 +1,21 @@
 header {
 	background-color: navy;
 	color: white;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
 }
 
 nav {
-	background-color: white;
+    color: white;
 }
 
 .content {
-	background-color: gray;
-	color: white;
+    color: white;
+}
+
+body {
+    background-color: rgb(32,32,32);
 }
 
 footer {
-	background-color: green;
 	color: white;
 }
