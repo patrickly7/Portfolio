@@ -1,21 +1,58 @@
-header {
-	background-color: navy;
-	color: white;
-    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+.container-fluid {
+  background: rgb(20,20,10);
 }
 
-nav {
-    color: white;
+.containter-fluid2 {
+  background: blue;
 }
 
-.content {
-    color: white;
+.header {
+  color: white;
+  font-family: Consolas, monaco, monospace;
+  text-align: center;
 }
 
-body {
-    background-color: rgb(32,32,32);
+.nav {
+  background: rgb(110,110,110);
+  text-align: center;
 }
 
-footer {
-	color: white;
+.nav ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+.nav li {
+  padding: 10px 10px 15px 15px;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.jumbotron{
+    caption-side: bottom;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/b3/9f/d8/b39fd8fd5ac2e8c25938e2fd1783d016.jpg);
+}
+
+.col-lg-12 {
+  background: rgb(64,128,256);
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+}
+
+.page-footer {
+  background: rgb(20,20,10);
+  text-align: center;
+}
+
+.page-footer ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+.page-footer li {
+  color: white;
+  font-weight: bold;
+  padding: 10 10 10 10;
 }
