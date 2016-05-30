@@ -41,17 +41,17 @@
   width: 100%;
 }
 
-.page-footer {
+footer {
   background: rgb(20,20,10);
   text-align: center;
 }
 
-.page-footer ul {
+footer ul {
   display: inline-flex;
   list-style: none;
 }
 
-.page-footer li {
+footer li {
   color: white;
   font-weight: bold;
   padding: 10 10 10 10;
