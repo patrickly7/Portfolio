@@ -21,22 +21,6 @@ body {
   text-align: center;
 }
 
-footer {
-  background: rgb(20,20,10);
-  text-align: center;
-}
-
-footer ul {
-  display: inline-flex;
-  list-style: none;
-}
-
-footer li {
-  color: white;
-  font-weight: bold;
-  padding: 10 10 10 10;
-}
-
 .skills {
   background: rgb(64,128,256);
   height: 100%;
