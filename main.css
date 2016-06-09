@@ -57,8 +57,3 @@ footer li {
 .skills {
   background-color: blue;
 }
-
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-}
