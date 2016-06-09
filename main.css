@@ -15,11 +15,6 @@ body {
   background-color: #f5f5f5;
 }
 
-.footer ul {
-  list-style: none;
-  display: inline-block;
-}
-
 .header {
   color: black;
   font-family: Consolas, monaco, monospace;
