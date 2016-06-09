@@ -5,6 +5,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background: rgb(64,128,256);
 }
 .footer {
   position: absolute;
@@ -53,8 +54,4 @@ body {
     vertical-align:bottom;
     background: rgb(64,128,256);
     overflow: hidden;
-}
-
-#divContent h4, p {
-  margin: 0;
 }
