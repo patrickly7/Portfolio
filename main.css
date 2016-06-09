@@ -52,4 +52,5 @@ body {
     height: 100%; 
     vertical-align:bottom;
     background: rgb(64,128,256);
+    overflow: hidden;
 }
