@@ -1,17 +1,10 @@
-.container {
-  background: rgb(20,20,10);
-}
-
-.containter-fluid2 {
-  background: blue;
-}
 
 html, body {
   height: 100%;
 }
 
 .header {
-  color: white;
+  color: black;
   font-family: Consolas, monaco, monospace;
   text-align: center;
 }
