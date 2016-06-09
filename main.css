@@ -29,15 +29,14 @@ footer li {
 }
 
 .navbar .navbar-nav {
-
-display: inline-block;
-
-float: none;
-
+  display: inline-block;
+  float: none;
 }
 
 .navbar .navbar-collapse {
+  text-align: center;
+}
 
-text-align: center;
-
+.navbar {
+    margin-bottom: 0;
 }
