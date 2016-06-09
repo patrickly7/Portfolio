@@ -54,3 +54,7 @@ body {
     background: rgb(64,128,256);
     overflow: hidden;
 }
+
+#divContent h4, p {
+  margin: 0;
+}
