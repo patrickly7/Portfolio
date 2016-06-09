@@ -1,4 +1,4 @@
-.container-fluid {
+.container {
   background: rgb(20,20,10);
 }
 
@@ -34,8 +34,8 @@ html, body {
 }
 
 .jumbotron{
-    caption-side: bottom;
-    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/b3/9f/d8/b39fd8fd5ac2e8c25938e2fd1783d016.jpg);
+  background-color: blue;
+  color: white;
 }
 
 .col-lg-12 {
