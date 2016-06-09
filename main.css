@@ -54,8 +54,3 @@ body {
     vertical-align:bottom;
     background: rgb(64,128,256);
 }
-
-#divPush
-{
-    height: 60px; /*Push must be same height as Footer */
-}
