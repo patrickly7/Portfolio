@@ -52,6 +52,7 @@ body {
     height: 100%; 
     margin: 0 auto -60px; /*Allow for footer height*/
     vertical-align:bottom;
+    background: rgb(64,128,256);
 }
 
 #divPush
