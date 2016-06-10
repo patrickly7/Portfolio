@@ -70,6 +70,10 @@ body {
 
 #mainPageContent h4 {
 	text-align: center;
-	font-family: compFont2, compFont, Arial;
+	font-family: compFontTwo, compFont, Arial;
 	font-style: bold;
+}
+
+.nav {
+	font-family: compFontTwo;
 }
