@@ -30,11 +30,6 @@ body {
   text-align: center;
 }
 
-.skills {
-  background: rgb(64,128,255);
-  height: 100%;
-}
-
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
