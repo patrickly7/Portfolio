@@ -1,8 +1,8 @@
 $(document).ready( function() {
-	$("#cssinfo").mouseenter( function() {
+	$("#langpic").mouseenter( function() {
 		$("#cssinfo").fadeTo('slow', 0)
 	});
-	$("#cssinfo").mouseleave( function() {
+	$("#langpic").mouseleave( function() {
 		$("#cssinfo").fadeTo('slow', 1)
 	});
 });
