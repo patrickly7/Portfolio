@@ -1,79 +1,88 @@
-@font-face {
-  font-family: compFont;
-  src: url(fonts/CHECKBK0.TTF);
+html, body {
+	margin: 0em;
+	padding: 0em;
+	background-color: dodgerblue;
 }
 
-@font-face {
-  font-family: compFontTwo;
-  src: url(fonts/VideoPhreak.ttf);
+.heading {
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+header {
+	margin: 0 auto
+	padding: 0 auto;
+	overflow: hidden;
 }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-  background: rgb(64,128,255);
-}
+h1 {
+	background-color: dimgrey;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: white;
+	font-family: "Calibri", Tahoma;
+	font-size: 40pt;
+	margin: 0;
+	padding: 0;
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
-}
-
-.footer .socialmedia {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  float: left;
-}
-
-.header {
-  color: black;
-  font-family: compFontTwo, compFont, Consolas, monaco, monospace;
-  text-align: center;
-}
-
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
-
-.navbar {
-    margin-bottom: 0;
-}
-
-#mainPageContent
-{
-    min-height: 100%; 
-    height: auto !important; /*Cause footer to stick to bottom in IE 6*/
-    height: 100%; 
-    vertical-align: bottom;
-    padding: 20px 20px 20px 20px;
-}
-
-#langpic1, #langpic2, #langpic3, #langpic4 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#mainPageContent h4 {
-  text-align: center;
-  font-family: compFontTwo, compFont, Arial;
-  font-style: bold;
 }
 
 .nav {
-  font-family: compFontTwo;
+	list-style-type: none;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+
+	position: fixed;
+	width: 100%;
+	top: 100;
+}
+
+.nav li {
+	display: inline;
+	float: left;
+	font-family: Tahoma;
+	border-right: 1px solid #bbb;
+}
+
+.nav li:last-child {
+	border-right: none;
+}
+
+.nav a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 30px;
+	text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #111;
+}
+
+.active {
+	background-color: royalblue;
+}
+
+#contact {
+	float: right;
+}
+
+.content {
+	margin-top: 130px;
+}
+
+img {
+	margin: auto;
+	padding: 10 10 10 10;
+	display: block;
+}
+
+footer {
+	background-color: dimgrey;
+	overflow: hidden;
 }
