@@ -3,6 +3,7 @@ html, body {
 	padding: 0em;
 	background-color: royalblue;
 	color: white;
+	min-width: 1230px;
 }
 
 .heading {
