@@ -64,7 +64,7 @@ h1 {
 	margin-top: 130px;
 }
 
-#intro, .education, .work, .skills, .contacts {
+#intro, .education, .work, .skills, .extra, .contacts {
 	padding: 2%;
 }
 #intro {
@@ -120,6 +120,9 @@ caption {
 	font-family: Tahoma, sans-serif;
 	padding-bottom: 2%;
 	font-size: 1.25em;
+}
+#program {
+	margin-bottom: 2%;
 }
 
 .smedia {
