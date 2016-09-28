@@ -2,6 +2,7 @@ html, body {
 	margin: 0em;
 	padding: 0em;
 	background-color: royalblue;
+	color: white;
 }
 
 .heading {
@@ -79,12 +80,25 @@ footer {
 table {
 	margin-left: 15%;
 	margin-right: 15%;
+	font-family: Tahoma, sans-serif;
+	width: 70%;
+	font-size: 1.25em;
 }
 table, th, td {
 	border: 1px solid black;
 }
 th, td {
-	padding: 0.5%;
+	padding: 1%;
+}
+th{background-color: dodgerblue;}
+tr:nth-child(odd) {background-color: skyblue;}
+tr:hover {
+	background-color: darkorchid;
+}
+caption {
+	font-family: Tahoma, sans-serif;
+	padding-bottom: 1%;
+	font-size: 1.25em;
 }
 
 .smedia {
