@@ -70,7 +70,7 @@ h1 {
 	display: inline-block;
 	margin-left: 15%;
 	margin-right: 15%;
-	width: 70%;
+	width: 60%;
 	font-size: 1.75em;
 }
 #intro img {
@@ -94,6 +94,7 @@ footer {
 	background-color: #333;
 	overflow: hidden;
 	height: 100px;
+	width: 100%;
 }
 
 table {
