@@ -3,7 +3,7 @@ html, body {
 	padding: 0em;
 	background-color: royalblue;
 	color: white;
-	min-width: 1230px;
+	min-width: 100%;
 }
 
 .heading {
@@ -144,7 +144,5 @@ caption {
 	table {
 		margin: 5%;
 	}
-	.smedia img {
-		float: center;
-	}
 }
+
