@@ -1,4 +1,4 @@
-# mygithubpage
+# Patrick Ly's Personal Site
 
 v2.0: Complete refresh of the website
   - New styling with Bootstrap
