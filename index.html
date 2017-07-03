@@ -1,217 +1,382 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
-<html lang="en">
+<html>
 
 <head>
 	<title>Patrick Ly</title>
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="main.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/script.js"></script>
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900" rel="stylesheet">
+
 </head>
 
 <body>
 
-	<header class="heading">
-		<h1>Patrick Ly</h1>
-		<ul class="nav">
-			<li><a href="#" class="active">Home</a></li>
-			<li><a href="#education">Education</a></li>
-			<li><a href="#work">Work Experience</a></li>
-			<li><a href="#skills">Skills</a></li>
-			<li><a href="#extra">Extracurriculars</a></li>
-			<li id="contact"><a href="#contacts">Contact Me</a></li>
-		</ul>
+	<header class="main-heading">
+		<div class="heading-name">
+			<span id="main-heading-title">PATRICK LY</span><br>
+			<span id="main-heading-subtitle">
+			Designer &amp; Developer
+			</span>
+		</div>
 	</header>
+	
+	<!-- ######################################################## -->
 
-	<section class="content">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
 
-		<section id="intro">
-		<img src="images/profile.jpg" alt="Picture of Myself" width="192" height="256">
-			<p>Hello! My name is Patrick Ly. I am a second-year (third-year standing) 
-			Computer Science student. Currently, my plan is to apply for the BS/MS
-			program to obtain my Master's Degree as well as minor in both Japanese and 
-			Game Design &amp; Development. My hobbies include reading, creating tools/programs to
-			make simple tasks even easier, and playing/creating games (both board games and video games).</p>
-		</section>
-		<hr>
-		<span class="anchor" id="education"></span>
-		<section class="education">
-			<table>
-				<caption><strong>Education</strong></caption>
-				<tr>
-					<th>School</th>
-					<th>Degree</th>
-					<th>Graduation Year</th>
-					<th>GPA</th>
-					<th>Awards</th>
-				</tr>
-				<tr>
-					<td>Rochester Institute of Technology</td>
-					<td>Computer Science B.S.</td>
-					<td>2020 (Tentative)</td>
-					<td>4.00 (Tentative)</td>
-					<td>Dean's List (Fall/Spring 2015 - 2016)</td>
-				</tr>
-				<tr>
-					<td>W.T. Clarke High School</td>
-					<td>East Meadow Scholars Diploma</td>
-					<td>2015</td>
-					<td>97/100 (Weighted)</td>
-					<td>Math Department Award, Italian Department Award</td>
-				</tr>
-			</table>
-		</section>
-		<hr>
-		<span class="anchor" id="work"></span>
-		<section class="work">
-			<table>
-				<caption><strong>Work Experience</strong></caption>
-				<tr>
-					<th>Organization</th>
-					<th>Position</th>
-					<th>Description</th>
-					<th>Time of Employment</th>
-				</tr>
-				<tr>
-					<td>RIT GCCIS</td>
-					<td>CS1 Grader</td>
-					<td>Grade homework assignments for Section 11 of Computer Science I (Python)</td>
-					<td>August 2016 - Current</td>
-				</tr>
-				<tr>
-					<td>RIT NTID</td>
-					<td>Notetaker</td>
-					<td>Take notes for RIT NTID students to allow them to focus on the professor's lecture and the interpreter, rather than note-taking</td>
-					<td>January 2016 - Current</td>
-				</tr>
-				<tr>
-					<td>East Meadow Public Library</td>
-					<td>Shelf Help</td>
-					<td>Organized and restocked the shelves of the library's Young Adult Room</td>
-					<td>January 2014 - March 2014</td>
-				</tr>
-			</table>
-		</section>
-		<hr>
-		<span class="anchor" id="skills"></span>
-		<section class="skills">
-			<table id="program">
-				<caption><strong>Skills</strong></caption>
-				<tr>
-					<th>Programming Language</th>
-					<th>Background</th>
-					<th>Time Spent</th>
-				</tr>
-				<tr>
-					<td>Python</td>
-					<td>Learned in <em>Computer Science I</em></td>
-					<td>1 year</td>
-				</tr>
-				<tr>
-					<td>Java</td>
-					<td>Learned in <em>Computer Science II</em></td>
-					<td>6 months</td>
-				</tr>
-				<tr>
-					<td>LaTeX</td>
-					<td>Self-taught in order to submit nicely formatted assignments for particular courses</td>
-					<td>6 months</td>
-				</tr>
-				<tr>
-					<td>HTML</td>
-					<td>Self-taught for the creation of a personal website; Currently learning in <em>Web and Mobile I</em></td>
-					<td>4 months</td>
-				</tr>
-				<tr>
-					<td>CSS</td>
-					<td>Self-taught for the creation of a personal website; Currently learning in <em>Web and Mobile I</em></td>
-					<td>4 months</td>
-				</tr>
-				<tr>
-					<td>C</td>
-					<td>Currently learning in <em>The Mechanics of Programming</em></td>
-					<td>1 month</td>
-				</tr>
-			</table>
-			<table>
-				<tr>
-					<th>Language</th>
-					<th>Background</th>
-				</tr>
-				<tr>
-					<td>Vietnamese</td>
-					<td>Elementary level; Can be spoken to in Vietnamese</td>
-				</tr>
-				<tr>
-					<td>Italian</td>
-					<td>Intermediate level, studied for 6 years; Can read, write, and speak Italian</td>
-				</tr>
-				<tr>
-					<td>Japanese</td>
-					<td>Elementary level, currently taking <em>Beginning Japanese II;</em> Can read, write, and speak Japanese</td>
-				</tr>
-			</table>
-		</section>
-		<hr>
-		<span class="anchor" id="extra"></span>
-		<section class="extra">
-			<table>
-				<caption><strong>Extracurriculars</strong></caption>
-				<tr>
-					<th>Club/Organization</th>
-					<th>Position</th>
-					<th>Description</th>
-					<th>Time as a Member</th>
-				</tr>
-				<tr>
-					<td>CodeRIT</td>
-					<td>Member</td>
-					<td>A club that provides the latest information on upcoming hackathons as well as holds crash courses on coding techniques and tools</td>
-					<td>September 2016 - Current</td>
-				</tr>
-				<tr>
-					<td>WADAIKO (Taiko Club)</td>
-					<td>Secretary</td>
-					<td>A club focused on learning and performing traditional and Japanese drumming known as Taiko; Performed in several shows including imagineRIT, Tora-Con, and Raijin no Matsuri; Manage club emails, social media outlets, and public relations as Secretary</td>
-					<td>November 2015 - Current</td>
-				</tr>
-				<tr>
-					<td>Society of Asian Scientists and Engineers (SASE)</td>
-					<td>Member</td>
-					<td>A club focused on teaching young Asian-Americans about their status in the workplace, ways they can improve, and how to work on their transition from college into a career</td>
-					<td>August 2015 - Current</td>
-				</tr>
-				<tr>
-					<td>Anime Club</td>
-					<td>Member</td>
-					<td>A club that aims to enrich the academic environment by stimulating the growth and appreciation of "Anime" as an art form as well as the awareness and understanding of Japanese Culture</td>
-					<td>August 2015 - Current</td>
-				</tr>
-			</table>
-		</section>
-		<hr>
-		<span class="anchor" id="contacts"></span>
-		<section class="contacts">
-			<h2>Contact Me</h2>
-			<p>Email: <a href="mailto:pxl7219@g.rit.edu"><em>pxl7219@g.rit.edu</em></a></p>
-			<p>Personal: <a href="mailto:pxl7219@g.rit.edu"><em>patrickly7@yahoo.com</em></a></p>
-			<p>Phone Number: (516) 737-9526</p>
-
-		</section>
-
-		<footer>
-			<section class="smedia">
-				<a href="https://www.facebook.com/patrick.ly.7.42"><img src="images/fblogo.png" alt="FB Icon" width="60" height="60"/></a>
-				<a href="https://www.linkedin.com/in/patrickly"><img src="images/linlogo.png" alt="LinkedIn Icon" width="60" height="60" /></a>
-				<a href="https://www.github.com/patrickly7"><img src="images/gitlogo.png" alt="GitHub Icon" width="60" height="60" /></a>
-				<a href="http://jigsaw.w3.org/css-validator/check/referer">
-			    <img style="border:0;width:88px;height:31px"
-			        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-			        alt="Valid CSS!" />
+			<div class="navbar-header">
+			  	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			    	<span class="icon-bar"></span>
+			    	<span class="icon-bar"></span>
+			    	<span class="icon-bar"></span>                        
+			  	</button>
+			  	<a class="navbar-brand" href="#">
+			  		<!-- Possibly fill in later -->
 			    </a>
-			</section>
-		</footer>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+			  	<ul class="nav navbar-nav navbar-right">
+				    <li><a href="#about">about</a></li>
+				    <li><a href="#experience">experiences</a></li>
+				    <li><a href="#skills">skills</a></li>
+				    <li><a href="#projects">projects</a></li>
+				    <li><a href="#contact">contact</a></li>
+			  	</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<!-- ######################################################## -->
+
+	<section id="about">
+		<h1>ABOUT ME</h1>
+		<hr>
+
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-sm-4">
+					<figure id="about-photo-wrapper">
+						<img src="images/about-photo.png" alt="About Photo" id="about-photo" height="300" width="300" />
+					</figure>
+				</div>
+
+				<div class="col-sm-4 about-group">
+
+					<figure class="box">
+						<img src="images/major.svg" alt="major" class="icon" style="float: left" />
+						<span class="category-title">Major</span>
+						<p class="category-info">Computer Science</p>
+					</figure>
+
+					<div class="box">
+						<img src="images/book.svg" alt="minor" class="icon" style="float: left" />
+						<span class="category-title">Minors</span>
+						<p class="category-info">Japanese, Game Design &amp; Development</p>
+					</div>
+
+					<div class="box">
+						<img src="images/controller.svg" alt="controller" class="icon" style="float: left"/>
+						<span class="category-title">Hobbies</span>
+						<p class="category-info">Playing/Making Games, Reading, Learning
+						New Languages, Traveling, Coding</p>
+					</div>
+
+				</div>
+					
+				<div class="col-sm-4 about-group">
+					
+					<div class="box">
+					<img src="images/calendar.svg" alt="calendar" class="icon" style="float: left" />
+					<span class="category-title">Birthday</span>
+					<p class="category-info">April 10th</p>
+					</div>
+
+					<div class="box">
+					<img src="images/phone.svg" alt="phone" class="icon" style="float: left" />
+					<span class="category-title">Phone</span>
+					<p class="category-info">(516) 737-9526</p>
+					</div>
+
+					<div class="box">
+					<img src="images/email.svg" alt="email" class="icon" style="float: left" />
+					<span class="category-title">Email</span>
+					<p class="category-info">pxl7219@g.rit.edu</p>
+					</div>
+					
+				</div>
+
+			</div>
+		</div>
+		<div id="biography">
+			<p>
+			Hi There! My name is Patrick.
+			I first started programming in my first semester at RIT.
+			Every since, I have been given taste of the various fields 
+			in computing. I hope the future brings me oppurtunities to
+			apply my newly found coding skills and contribute back to the community.
+			</p>
+			
+			<form method="get" action="documents/resume.pdf">
+				<button class="btn btn-primary resume-button">
+					Résumé
+					<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+				</button>
+			</form>
+		</div>
+		
+	</section>
+
+	<!-- ######################################################## -->
+
+	<section id="experience">
+		<h1>EXPERIENCE</h1>
+		<hr>
+
+		<div class="container-fluid">
+
+			<div class="row">
+				
+				<div class="col-sm-12">
+
+					<div class="col-sm-12 education">
+						<h2>EDUCATION</h2>
+
+						<div class="school">
+							<figure><img src="images/rit.png" alt="RIT Logo" width="100" height="100" /></figure>
+							<span><strong>Rochester Institute of Technology</strong></span><br>
+							<span>Computer Science B.S.</span><br>
+							<span><em>August 2015 - Current</em></span><br>
+							<span><strong>Current GPA:</strong> 3.98</span>
+						</div>
+
+						<div class="school">
+							<img src="images/clarke.png" alt="Clarke Logo" width="100" height="100" />
+							<span><strong>W.T. Clarke High School</strong></span><br>
+							<span>East Meadow Scholars Diploma</span><br>
+							<span><em>September 2011 - June 2015</em></span><br>
+							<span><strong>GPA:</strong> 97 (Weighted) / 96 (Unweighted)</span>
+						</div>
+					</div>
+					
+					<div class="col-sm-12 work">
+						
+						<h2>WORK</h2>
+
+						<div class="job">
+							<img src="images/computer.svg" alt="Computer" width="100" height="100" />
+							<span><strong>CS Grader</strong></span><br>
+							<span>RIT GCCIS</span><br>
+							<span><em>August 2016 - Current</em></span><br>
+							<span>Grades homework assignments for Computer Science courses</span>
+						</div>
+
+						<div class="job">
+							<img src="images/pencil.svg" alt="Pencil" width="100" height="100" />
+							<span><strong>Notetaker</strong></span><br>
+							<span>RIT NTID</span><br>
+							<span><em>January 2016 - Current</em></span><br>
+							<span>Takes notes for NTID students to allow them to focus in lecture</span>
+						</div>
+					</div>
+	
+				</div>
+
+			</div>
+		</div>
 
 	</section>
+
+	<!-- ######################################################## -->
+
+	<section id="skills">
+		<h1>SKILLS</h1>
+		<hr>
+
+		<div class="skill-group-heading">
+			<img src="images/coding.svg" alt="Coding Computer" width="150" height="150" />
+			<span class="skill-group-title">Languages</span>
+		</div>
+
+		<ul>
+			<li><strong>Python</strong> (2 years): Django</li>
+			<li><strong>Java</strong> (1.5 years): JavaFX8</li>
+			<li><strong>C</strong> (1 year)</li>
+			<li><strong>HTML/CSS</strong> (1 year): Emmet, Bootstrap, Sass</li>
+			<li><strong>Javascript</strong> (0.5 years): NodeJS</li>
+		</ul>
+<!--
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="col-sm-12">
+					<div class="col-sm-4 python">
+						<span><strong>Python</strong></span>
+					</div>
+
+					<div class="col-sm-4 java">
+						<span><strong>Java</strong></span>
+					</div>
+
+					<div class="col-sm-4 python">
+						<span><strong>C/C++</strong></span>
+					</div>
+				</div>
+
+				<div class="col-sm-12">				
+					<div class="col-sm-4 python">
+						<span><strong>HTML5</strong></span>
+					</div>
+
+					<div class="col-sm-4 java">
+						<span><strong>CSS3</strong></span>
+					</div>
+
+					<div class="col-sm-4 python">
+						<span><strong>Javascript</strong></span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+-->
+
+		<div class="skill-group-heading">
+			<img src="images/tools.svg" alt="Tools Gear" width="150" height="150" />
+			<span class="skill-group-title">Tools &amp; Technologies</span>
+		</div>
+
+		<ul>
+			<li>Unity</li>
+			<li>FTP (FileZilla)</li>
+			<li>Version Control (Git, Subversion)</li>
+			<li>SSH (MobaXTerm, Putty)</li>
+			<li>Android Studio</li>
+		</ul>
+
+
+
+	</section>
+
+	<!-- ######################################################## -->
+
+	<section id="projects">
+		<h1>PROJECTS</h1>
+		<hr>
+			
+		<div class="container-fluid">
+			<div class="row">
+	
+				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-2 project">
+					<a href="" data-toggle="modal" data-target="#myModal">
+						<img src="images/hospital-icon.svg" alt="project Logo" width="300" height="300" />
+					</a>
+				</div>
+				
+			</div>
+		</div>
+	
+
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-lg">
+			
+			<!-- Content -->
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						&times;
+					</button>
+					<p class="modal-title"><strong>HealthNet</strong></p>
+				</div>
+
+				<div class="modal-body">
+					<img src="images/HealthNet_Logo.png" alt="HealthNet Logo" width="300" height="300" />
+					<div class="modal-text">
+							<span><strong>HealthNet</strong></span><br>
+							<span>Intro to Software Engineering</span><br>
+							<span><em>January 2017 - May 2017</em></span><br>
+							<span>A web application that simulates the different functions that different users at a hospital (Admin, Doctor, Nurse, Patient) may need with regard to patient records, appointment scheduling, hospital transfers, etc.</span><br>
+							<span><strong><em>Team Role:</em></strong>
+							Requirements Coordinator (5 Total Members)</span>
+							<hr>
+							<span><strong>Languages/Frameworks:</strong> 
+							Python, HTML, CSS, Javascript, Django</span>
+					</div>
+				</div>
+
+				<div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			    </div>
+
+			</div>
+
+		</div>
+	</div>
+
+	</section>
+
+	<!-- ######################################################## -->
+
+	<section id="contact">
+		<h1>CONTACT</h1>
+		<hr>
+
+		<form action="https://formspree.io/pxl7219@g.rit.edu" method="POST">
+
+			<div class="form-group">
+				  <label for="usr">Name:</label>
+				  <input type="text" class="form-control" id="usr" placeholder="John Doe">
+			</div>
+
+			<div class="form-group">
+			    <label for="email">Email Address:</label>
+			    <input type="email" class="form-control" id="email" placeholder="username@example.com">
+			</div>
+
+		  	<div class="form-group">
+			  <label for="comment">Comment:</label>
+			  <textarea class="form-control" rows="5" id="comment"></textarea>
+			</div>
+
+			<button type="submit" class="btn btn-success">Send</button>
+			<button type="reset" class="btn btn-default">Clear</button>
+
+		</form>
+	</section>
+
+	<!-- ######################################################## -->
+
+	<footer>
+		<a href="https://facebook.com/patrickly.7.42">
+			<img src="images/facebook.svg" alt="Facebook">
+		</a>
+		<a href="https://linkedin.com/in/patrickly">
+			<img src="images/linkedin.svg" alt="Linkedin">
+		</a>
+		<a href="https://github.com/patrickly7">
+			<img src="images/github.svg" alt="Github">
+		</a>
+		<p>&copy; Patrick Ly 2017</p>
+	</footer>
 
 </body>
 
