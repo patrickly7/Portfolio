@@ -1,5 +1,7 @@
 # My Portfolio
 
+v4.0: Coming Soon. Will Integrate VueJS with Buefy/Bulma.
+
 v3.0: Refreshing the site once again, using some new tools that I've picked up in the past year.
 
 Revised March 17th, 2018.
